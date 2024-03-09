@@ -1,7 +1,15 @@
 import mongoose from "mongoose";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
-const userSchema = mongoose.Schema({
+export type UserType = {
+  _id: string;
+  email: string;
+  password: string;
+  firstName: string;
+  lastName: string;
+};
+
+const userSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true },
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
@@ -15,11 +23,12 @@ userSchema.pre("save", async function (next) {
       const salt = await bcrypt.genSalt(saltRounds);
       this.password = await bcrypt.hash(this.password, salt);
     } catch (err) {
-      return next(err);
+      return next(err as Error);
     }
   }
   next();
 });
 
-const User = mongoose.model("User", userSchema);
+const User = mongoose.model<UserType>("User", userSchema);
+
 export default User;

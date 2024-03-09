@@ -1,5 +1,6 @@
 import _ from "lodash";
-import Schemas from "../schemas.js";
+import Schemas from "../schemas";
+import { RequestHandler } from "express";
 
 const supportedMethods = ["post", "put"];
 const validationOptions = {
@@ -8,8 +9,7 @@ const validationOptions = {
   stripUnknown: false,
 };
 
-//
-const schemaValidator = (req, res, next) => {
+const schemaValidator: RequestHandler = (req, res, next) => {
   const path = req.route.path;
   const method = req.method.toLowerCase();
 
