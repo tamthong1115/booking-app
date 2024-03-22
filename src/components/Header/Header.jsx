@@ -42,19 +42,19 @@ const Header = () => {
                 <Button className={cx('border')} leftIcon={<FontAwesomeIcon icon={faBed} />}>
                     Lưu trú
                 </Button>
-                <Button rounded leftIcon={<FontAwesomeIcon icon={faPlane} />}>
+                <Button rounded to="/" leftIcon={<FontAwesomeIcon icon={faPlane} />}>
                     Chuyến bay
                 </Button>
-                <Button rounded leftIcon={<FontAwesomeIcon icon={faSuitcase} />}>
+                <Button rounded to="/" leftIcon={<FontAwesomeIcon icon={faSuitcase} />}>
                     Chuyến bay + Khách sạn
                 </Button>
-                <Button rounded leftIcon={<FontAwesomeIcon icon={faCar} />}>
+                <Button rounded to="/" leftIcon={<FontAwesomeIcon icon={faCar} />}>
                     Thuê xe
                 </Button>
-                <Button rounded leftIcon={<FontAwesomeIcon icon={faLocationDot} />}>
+                <Button rounded to="/" leftIcon={<FontAwesomeIcon icon={faLocationDot} />}>
                     Địa điểm tham quan
                 </Button>
-                <Button rounded leftIcon={<FontAwesomeIcon icon={faTaxi} />}>
+                <Button rounded to="/" leftIcon={<FontAwesomeIcon icon={faTaxi} />}>
                     Taxi sân bay
                 </Button>
             </nav>
