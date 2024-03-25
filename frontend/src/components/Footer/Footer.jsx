@@ -1,3 +1,6 @@
+
+
+
 const Footer = () => {
   return (
     <div className="bg-green-700 py-10">

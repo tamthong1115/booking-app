@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import Layout from "./layouts/Layout";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
           path="/"
           element={
             <Layout>
-              <p>Home Page</p>
+              <Home />
             </Layout>
           }
         />
