@@ -1,0 +1,15 @@
+.search {
+    position: absolute;
+    height: var(--search-height);
+    max-width: var(--search-width);
+    width: calc(100% - 10px);
+    left: 50%;
+    transform: translate(-50%, 22px);
+    z-index: 10;
+    background-color: var(--color-search);
+    border: 2px solid var(--color-search);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--default-border-radius);
+}

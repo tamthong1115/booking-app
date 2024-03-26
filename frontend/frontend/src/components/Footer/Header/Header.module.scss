@@ -1,0 +1,51 @@
+.wrapper {
+    --search-btn-height: 52px;
+    --search-btn-height-spacer: 9px;
+    --search-btn-width: 82px;
+    --search-height: 50px;
+    --search-width: 1084px;
+    --color-search: orange;
+
+    padding: 8px 16px 0;
+    background-color: var(--primary-color);
+    height: var(--default-layout-header-height);
+    margin: 0 180px;
+}
+
+.inner {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 60;
+    padding: 4px 16px 8px;
+}
+
+.logo {
+    flex: 1;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.question {
+    font-size: 2.2rem;
+}
+
+.outline {
+    border: 1px solid white;
+}
