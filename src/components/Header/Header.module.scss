@@ -1,8 +1,19 @@
 .wrapper {
+    --search-btn-height: 52px;
+    --search-btn-height-spacer: 9px;
+    --search-btn-width: 82px;
+    --search-height: 50px;
+    --search-width: 1084px;
+    --color-search: orange;
+
     padding: 8px 16px 0;
     background-color: var(--primary-color);
-    height: 124px;
+    height: var(--default-layout-header-height);
     margin: 0 180px;
+}
+
+.inner {
+    position: relative;
 }
 
 .header {

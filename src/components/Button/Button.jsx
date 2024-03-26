@@ -15,6 +15,7 @@ function Button({
     onClick,
     text = false,
     primary = false,
+    search = false,
     outline = false,
     small = false,
     large = false,
@@ -48,6 +49,7 @@ function Button({
     const classes = cx('wrapper', {
         text,
         primary,
+        search,
         outline,
         large,
         small,
