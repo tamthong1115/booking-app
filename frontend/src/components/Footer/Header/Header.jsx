@@ -61,9 +61,10 @@ const Header = () => {
                         Taxi sân bay
                     </Button>
                 </nav>
-
             </div>
+
             <Search />
+            
         </div>
     );
 };

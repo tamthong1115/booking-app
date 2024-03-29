@@ -1,16 +1,19 @@
 .wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 20;
-    width: 100%;
+    --search-btn-height: 52px;
+    --search-btn-height-spacer: 9px;
+    --search-btn-width: 82px;
+    --search-height: 50px;
+    --search-width: 1084px;
+    --color-search: orange;
+
+    padding: 8px 16px 0;
     background-color: var(--primary-color);
     height: var(--default-layout-header-height);
+    margin: 0 180px;
 }
 
 .inner {
-    padding: 0 var(--common-padding);
+    position: relative;
 }
 
 .header {

@@ -1,0 +1,7 @@
+{
+    "places": [
+        { "id": 1, "name": "TP. Hồ Chí Minh", "description": "khu vực TP. Hồ Chí Minh, Việt Nam" },
+        { "id": 2, "name": "Mỹ Tho", "description": "Tiền Giang, Việt Nam" },
+        { "id": 3, "name": "Bình Thuận", "description": "Phan Thiết, Bình Thuận, Việt Nam" }
+    ]
+}
