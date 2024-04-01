@@ -1,0 +1,39 @@
+.wrapper {
+    margin-top: 16px;
+}
+
+.heading {
+    font-size: 2.2rem;
+}
+
+.title {
+    font-size: 1.4rem;
+    padding: 4px 0 8px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    position: relative;
+}
+
+.img-voucher {
+    border-radius: 8px;
+    width: 550px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info {
+    position: absolute;
+    margin: 16px;
+    top: 0;
+    z-index: 10;
+    color: var(--white);
+
+    .btn {
+        background-color: yellow;
+    }
+}
