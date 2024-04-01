@@ -1,8 +1,7 @@
 .wrapper {
-    padding: 8px 16px 0;
     background-color: var(--primary-color);
-    height: 124px;
-    margin: 0 180px;
+    height: var(--default-layout-header-height);
+    padding: 0 100%;
 }
 
 .header {
@@ -13,7 +12,8 @@
 }
 
 .logo {
-    flex: 1;
+    text-align: left;
+    margin-right: auto;
     color: white;
     font-size: 2.5rem;
     font-weight: 700;
@@ -29,6 +29,10 @@
     width: 24px;
     border-radius: 50%;
     object-fit: contain;
+}
+
+.login-btn {
+    height: 36px;
 }
 
 .question {
