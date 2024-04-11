@@ -1,0 +1,14 @@
+.search {
+    position: relative;
+    height: var(--search-height);
+    width: var(--search-width);
+    left: 50%;
+    transform: translate(-50%, 40%);
+    z-index: 10;
+    background-color: var(--search-background-color);
+    border: 2px solid var(--search-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--default-border-radius);
+}
